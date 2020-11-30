@@ -1,0 +1,31 @@
+.grid{
+    margin-top: 75px;
+    margin-left: 0;
+    line-height: 0;
+}
+
+.algoDescription{
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    margin-bottom: -50px;
+    margin-top: -50px;
+    animation-name: sortingDescriptionAnimation;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    color: black;
+}
+
+@keyframes sortingDescriptionAnimation{
+    0%{
+        margin-top: 0%;
+        color: white;
+    }
+}
